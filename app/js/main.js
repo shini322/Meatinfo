@@ -93,6 +93,8 @@ if(company.hasClass('company--worker')){
 }
 
 
+// Настройка модального окна
+
 
 var checkbox = $('.inaccuracy-form__input');
 var button = $('#check');
@@ -111,7 +113,7 @@ checkbox.on('change', function(){
 } 
 });
 
-
+// Звездный рейтинг
 
 $(function () {
     if ( $(window).width() < 550 ){
@@ -153,23 +155,21 @@ $(function () {
     
   });
 
-  let starSvg = $('.comment-item__assessment-stars');
-  let commentButton = $('.comment-item__submit-link');  
-  let errorValidator= $('.comment__error')
+  // Кастомный валидатор
 
-  starSvg.click(function(){
-    commentButton.prop('disabled', false);
-  });
+//   let starSvg = $('.comment-item__assessment-stars');
+//   let commentButton = $('.comment-item__submit-link');  
+//   let errorValidator= $('.comment__error')
 
-  commentButton.click(function(){
-      if(commentButton.prop('disabled', true)){
-          errorValidator.text('Для оставления отзывов со дня регистрации на портале должно пройти не менее 30 дней');
+//   starSvg.click(function(){
+//     commentButton.prop('disabled', false);
+//   });
 
-      }
-  });
+  
+//   });
 
 
-
+// Превью загрузки файлов
 
 if (window.File && window.FileList && window.FileReader) {
     $("#files").on("change", function(e) {
@@ -196,7 +196,7 @@ if (window.File && window.FileList && window.FileReader) {
     alert("Your browser doesn't support to File API")
   }
 
-
+// Кнопка на верх
 
 
 $(".company__link-comment").on("click",  function (event) {
@@ -206,6 +206,7 @@ $(".company__link-comment").on("click",  function (event) {
     $('body,html').animate({scrollTop: top}, 400);
 });
 
+// Валидация
 
 $('.comment-item__form').validate({ 
 
