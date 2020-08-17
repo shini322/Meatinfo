@@ -227,6 +227,9 @@ button{
             margin-left: 0;
             margin-bottom: 30px;
         }
+        @include for-md-mob{
+            clear: both;
+        }
     }
     &__logo{
         margin-bottom: 16px;
