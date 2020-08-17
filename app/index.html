@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="css/main.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--start wrapper-->
+    <div class="wrapper" id="wrapper">
+        <!--start header-->
+        <header class="header" id="header">
+            <div class="header__top">
+                
+            </div>
+            <div class="header__bottom">
+
+            </div>
+        </header>
+        <!--end wrapper-->
+
+        <!--start main-->
+        <main class="main" id="main">
+
+            <!--start info-->
+            <div class="info">
+                <div class="container">
+                    <div class="info__inner">
+                        <div class="page-content">
+                            <div class="breadcrumbs info__breadcrumbs">
+                                <ul class="breadcrumbs__list">
+                                    <li class="breadcrumbs__list-item">
+                                        <a href="#">
+                                            Главная
+                                        </a>
+                                    </li>
+                                    <li class="breadcrumbs__list-item">
+                                        <a href="#">
+                                            Мясные компании в Москве
+                                        </a>
+                                    </li>
+                                    <li class="breadcrumbs__list-item">
+                                        <span>
+                                            Преображенский МПК, ООО
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <form class="search info__search" action="" >
+                                <div class="search__inner">
+                                    <input class="search__input" type="text" placeholder="Поиск по компаниям">
+                                    <button class="search__button" type="submit">
+                                        <svg class="search__icon-search"><use xlink:href="images/sprite.svg#icon-search"></use></svg>
+                                    </button>
+                                </div>
+                            </form>
+                            <div class="back info__back">
+                                <a class="back__link" href="#">
+                                    <svg class="back__icon-back"><use xlink:href="images/sprite.svg#icon-back"></use></svg>
+                                    К каталогу компаний
+                                </a>
+                            </div>
+                            <div class="company info__company company--confirmed company--worker">
+                                <div class="company__content">
+                                    <div class="company__title">
+                                        <svg class="company__title-icon icon-approval"><use xlink:href="images/sprite.svg#icon-approval"></use></svg>
+                                        <div class="company__hint">
+                                            <div class="company__hint-title">
+                                                <svg class="company__title-icon icon-approval"><use xlink:href="images/sprite.svg#icon-approval"></use></svg>
+                                                Подтверждённая компания
+                                            </div>
+                                            <div class="company__hint-text">
+                                                Реквизиты компании проверены банковским переводом.
+                                            </div>
+                                            
+                                        </div>
+                                        Преображенский МПК, ООО
+                                    </div>
+                                    <div class="company__item">
+                                        <div class="company__view">
+                                            <svg class="company__view-icon icon-view"><use xlink:href="images/sprite.svg#icon-view"></use></svg>
+                                            578 (+2)
+                                        </div>
+                                        <a class="link company__link company__link-comment" href="#comment">
+                                            <svg class="company__link-icon icon-comment"><use xlink:href="images/sprite.svg#icon-comment"></use></svg>
+                                            Оставить отзыв
+                                        </a>
+                                        <a class="link company__link company__link-statistic" href="#">
+                                            <svg class="company__link-icon icon-statistic"><use xlink:href="images/sprite.svg#icon-statistic"></use></svg>
+                                            Статистика
+                                        </a>
+                                        <a class="link company__link company__link-edit" href="#">
+                                            <svg class="company__link-icon icon-edit"><use xlink:href="images/sprite.svg#icon-edit"></use></svg>
+                                            Редактировать компанию
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                                <div class="company__button-block">
+                                    <a class="button button--blue company__button-data" href="#inaccuracy-modal" data-fancybox="">
+                                        Данные неактуальны?
+                                        
+                                    </a>
+                                    <button class="button button--green company__button">
+                                        
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="info__container">
+                                <div class="info__content">
+                                    <div class="info__item">
+                                        <h2 class="item-title info__item-title">
+                                            Последние объявления сотрудников компании
+                                        </h2> 
+                                        <table class="info-table info__table">
+                                            <tr class="info-table__tr">
+                                                <td class="info-table__td">
+
+                                                </td>
+                                                <td class="info-table__td info-table__td--title">
+                                                    Объявление
+                                                </td>
+                                                <td class="info-table__td info-table__td--time">
+                                                    Время
+                                                </td>
+                                                <td class="info-table__td info-table__td--view">
+                                                    <svg class=" info-table__icon-view icon-view"><use xlink:href="images/sprite.svg#icon-view"></use></svg>
+                                                </td>
+                                                <td class="info-table__td info-table__td--user">
+                                                    Опубликовал
+                                                </td>
+                                            </tr>
+                                            <tr class="info-table__tr">
+                                                <td class="info-table__td ">
+                                                    <div class="info-table__status info-table__status--sell">
+                                                        
+                                                    </div>
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <span class="info-table__td--mobile">Объявление</span>
+                                                    <a class="link link--blue info-table__name-product" href="#">Желудки куриные очищенные 60 руб.</a>
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <span class="info-table__td--mobile">Время</span>
+                                                    5 фев
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <span class="info-table__td--mobile"><svg class=" info-table__icon-view icon-view"><use xlink:href="images/sprite.svg#icon-view"></use></svg></span>
+                                                    155
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <div class="info-table__user">
+                                                        <div class="info-table__user-avatar-block">
+                                                             <img class="info-table__user-avatar" src="images/empty-photo.png" alt="">
+                                                        </div>
+                                                        <div class="info-table__user-text-block">
+                                                            <a class="link link--blue info-table__user-name" href="#">
+                                                                Татьяна Лобач
+                                                            </a>
+                                                            <div class="info-table__user-location">
+                                                                Орехово-Зуевский мясокомбинат
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="info-table__tr">
+                                                <td class="info-table__td ">
+                                                    <div class="info-table__status info-table__status--sell">
+                                                        
+                                                    </div>
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <span class="info-table__td--mobile">Объявление</span>
+                                                    <a class="link link--blue info-table__name-product" href="#">ГоленьЦБ(подл) 100р, Желудки кур.очиш 60 р</a>
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <span class="info-table__td--mobile">Время</span>
+                                                    27 янв
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <span class="info-table__td--mobile"><svg class=" info-table__icon-view icon-view"><use xlink:href="images/sprite.svg#icon-view"></use></svg></span>
+                                                    185
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <div class="info-table__user">
+                                                        <div class="info-table__user-avatar-block">
+                                                             <img class="info-table__user-avatar" src="images/empty-photo.png" alt="">
+                                                        </div>
+                                                        <div class="info-table__user-text-block">
+                                                            <a class="link link--blue info-table__user-name" href="#">
+                                                                Татьяна Лобач
+                                                            </a>
+                                                            <div class="info-table__user-location">
+                                                                Орехово-Зуевский мясокомбинат
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="info-table__tr">
+                                                <td class="info-table__td ">
+                                                    <div class="info-table__status info-table__status--pay">
+                                                        
+                                                    </div>
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <span class="info-table__td--mobile">Объявление</span>
+                                                    <a class="link link--blue info-table__name-product" href="#">Курица, Индейка, Говядина, Свинина от МК</a>
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <span class="info-table__td--mobile">Время</span>
+                                                    21 апр
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <span class="info-table__td--mobile"><svg class=" info-table__icon-view icon-view"><use xlink:href="images/sprite.svg#icon-view"></use></svg></span>
+                                                    42609
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <div class="info-table__user">
+                                                        <div class="info-table__user-avatar-block">
+                                                             <img class="info-table__user-avatar" src="images/empty-photo.png" alt="">
+                                                        </div>
+                                                        <div class="info-table__user-text-block">
+                                                            <a class="link link--blue info-table__user-name" href="#">
+                                                                Татьяна Лобач
+                                                            </a>
+                                                            <div class="info-table__user-location">
+                                                                Орехово-Зуевский мясокомбинат
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="info-table__tr">
+                                                <td class="info-table__td ">
+                                                    <div class="info-table__status info-table__status--pay">
+                                                        
+                                                    </div>
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <span class="info-table__td--mobile">Объявление</span>
+                                                    <a class="link link--blue info-table__name-product" href="#">ГоленьЦБ(подл) 100р, Желудки кур.очиш 60 р</a>
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <span class="info-table__td--mobile">Время</span>
+                                                    27 фев
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <span class="info-table__td--mobile"><svg class=" info-table__icon-view icon-view"><use xlink:href="images/sprite.svg#icon-view"></use></svg></span>
+                                                    319
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <div class="info-table__user">
+                                                        <div class="info-table__user-avatar-block">
+                                                             <img class="info-table__user-avatar" src="images/empty-photo.png" alt="">
+                                                        </div>
+                                                        <div class="info-table__user-text-block">
+                                                            <a class="link link--blue info-table__user-name" href="#">
+                                                                Татьяна Лобач
+                                                            </a>
+                                                            <div class="info-table__user-location">
+                                                                Орехово-Зуевский мясокомбинат
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="info-table__tr">
+                                                <td class="info-table__td ">
+                                                    <div class="info-table__status info-table__status--sell">
+                                                        
+                                                    </div>
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <span class="info-table__td--mobile">Объявление</span>
+                                                    <a class="link link--blue info-table__name-product" href="#">Курица, Индейка, Говядина, Свинина от МК</a>
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <span class="info-table__td--mobile">Время</span>
+                                                    7 фев
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <span class="info-table__td--mobile"><svg class=" info-table__icon-view icon-view"><use xlink:href="images/sprite.svg#icon-view"></use></svg></span>
+                                                    10072
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <div class="info-table__user">
+                                                        <div class="info-table__user-avatar-block">
+                                                             <img class="info-table__user-avatar" src="images/empty-photo.png" alt="">
+                                                        </div>
+                                                        <div class="info-table__user-text-block">
+                                                            <a class="link link--blue info-table__user-name" href="#">
+                                                                Татьяна Лобач
+                                                            </a>
+                                                            <div class="info-table__user-location">
+                                                                Орехово-Зуевский мясокомбинат
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="info-table__tr">
+                                                <td class="info-table__td ">
+                                                    <div class="info-table__status info-table__status--sell">
+                                                        
+                                                    </div>
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <span class="info-table__td--mobile">Объявление</span>
+                                                    <a class="link link--blue info-table__name-product" href="#">Фарш куриный ММО люкс 40руб/кг</a>
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <span class="info-table__td--mobile">Время</span>
+                                                    7 фев
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <span class="info-table__td--mobile"><svg class=" info-table__icon-view icon-view"><use xlink:href="images/sprite.svg#icon-view"></use></svg></span>
+                                                    300
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <div class="info-table__user">
+                                                        <div class="info-table__user-avatar-block">
+                                                             <img class="info-table__user-avatar" src="images/user-photo.jpg" alt="">
+                                                        </div>
+                                                        <div class="info-table__user-text-block">
+                                                            <a class="link link--blue info-table__user-name" href="#">
+                                                                Виталий Пчелинцев
+                                                            </a>
+                                                            <div class="info-table__user-location">
+                                                                ООО ОКЕАНФИШ
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="info-table__tr">
+                                                <td class="info-table__td ">
+                                                    <div class="info-table__status info-table__status--sell">
+                                                        
+                                                    </div>
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <span class="info-table__td--mobile">Объявление</span>
+                                                    <a class="link link--blue info-table__name-product" href="#">Голень ЦБ ГОСТ 75 руб/кг</a>
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <span class="info-table__td--mobile">Время</span>
+                                                    7 фев
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <span class="info-table__td--mobile"><svg class=" info-table__icon-view icon-view"><use xlink:href="images/sprite.svg#icon-view"></use></svg></span>
+                                                    319
+                                                </td>
+                                                <td class="info-table__td">
+                                                    <div class="info-table__user">
+                                                        <div class="info-table__user-avatar-block">
+                                                             <img class="info-table__user-avatar" src="images/user-photo.jpg" alt="">
+                                                        </div>
+                                                        <div class="info-table__user-text-block">
+                                                            <a class="link link--blue info-table__user-name" href="#">
+                                                                Виталий Пчелинцев
+                                                            </a>
+                                                            <div class="info-table__user-location">
+                                                                ООО ОКЕАНФИШ
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            
+                                        </table>
+                                    </div>
+                                    <div class="info__item">
+                                        <h2 class="item-title info__item-title">
+                                            Фото продукции
+                                        </h2>
+                                        <div class="info-gallery info__gallery">
+                                            <div class="info-gallery__slider">
+                                                <a class="info-gallery__img-block" data-fancybox href="images/product-gallery/1.jpg">
+                                                    <img class="info-gallery__img" src="images/product-gallery/1.jpg" alt="">
+                                                </a>
+                                                <a class="info-gallery__img-block" data-fancybox href="images/product-gallery/2.jpg">
+                                                    <img class="info-gallery__img" src="images/product-gallery/2.jpg" alt="">
+                                                </a>
+                                                <a class="info-gallery__img-block" data-fancybox href="images/product-gallery/1.jpg">
+                                                    <img class="info-gallery__img" src="images/product-gallery/1.jpg" alt="">
+                                                </a>
+                                                <a class="info-gallery__img-block" data-fancybox href="images/product-gallery/3.jpg">
+                                                    <img class="info-gallery__img" src="images/product-gallery/3.jpg" alt="">
+                                                </a>
+                                                <a class="info-gallery__img-block" data-fancybox href="images/product-gallery/4.jpg">
+                                                    <img class="info-gallery__img" src="images/product-gallery/4.jpg" alt="">
+                                                </a>
+                                                <a class="info-gallery__img-block" data-fancybox href="images/product-gallery/2.jpg">
+                                                    <img class="info-gallery__img" src="images/product-gallery/2.jpg" alt="">
+                                                </a>
+                                                <a class="info-gallery__img-block" data-fancybox href="images/product-gallery/2.jpg">
+                                                    <img class="info-gallery__img" src="images/product-gallery/2.jpg" alt="">
+                                                </a>
+                                                <a class="info-gallery__img-block" data-fancybox href="images/product-gallery/1.jpg">
+                                                    <img class="info-gallery__img" src="images/product-gallery/1.jpg" alt="">
+                                                </a>
+                                                <a class="info-gallery__img-block" data-fancybox href="images/product-gallery/3.jpg">
+                                                    <img class="info-gallery__img" src="images/product-gallery/3.jpg" alt="">
+                                                </a>
+                                                <a class="info-gallery__img-block" data-fancybox href="images/product-gallery/4.jpg">
+                                                    <img class="info-gallery__img" src="images/product-gallery/4.jpg" alt="">
+                                                </a>                                                
+                                            </div>
+                                        </div>
+
+                                        
+                                    </div>
+                                    <div class="info__item">
+                                        <h2 class="item-title info__item-title">
+                                            Отзывы про Преображенский МПК (2)
+                                        </h2>
+                                        <div class="comment">
+                                            <div class="comment__assessment">
+                                                <div class="comment__assessment-stars"></div>
+                                                <div class="comment__assessment-value">
+                                                    3,5
+                                                </div>
+                                                <div class="comment__assessment-total">
+                                                    (4 оценки)
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="comment__rules-block">
+
+                                            <a class="link link--blue comment__rules" href="#">Правила публикации отзывов</a>
+                                        </div>
+                                        <div class="comment-item comment__item " id="comment">
+                                            <form class="comment-item__form">
+                                                <div class="comment-item__info-block">
+                                                    <div class="comment-item__avatar-block">
+                                                        <img class="comment-item__avatar" src="images/user-photo.jpg" alt="">
+                                                    </div>
+                                                    <div class="comment-item__info">
+                                                        <div class="comment-item__title comment-item__title--mobile">
+                                                            Оставить отзыв
+                                                        </div>
+                                                        <div class="comment-item__name">
+                                                            Виталий Пчелинцев
+                                                        </div>
+                                                        <div class="comment-item__assessment">
+                                                            <div class="comment-item__assessment-stars" id="rateYo"></div>
+                                                            <div class="comment-item__assessment-text">
+                                                                Начните отзыв с выставления оценки
+                                                            </div>
+                                                            <div class="comment-item__answer">
+                                                                <svg class="comment-item__icon-replay"><use xlink:href="images/sprite.svg#icon-replay"></use></svg>
+                                                                Ответить
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="comment-item__form-item">
+                                                    <textarea class="comment-item__textarea" placeholder="Сотрудничали с компанией? Расскажите как это было!" required></textarea>
+                                                    <div class="comment-item__form-footer">
+                                                        <input class="comment-item__form-input" type="file" id="files">
+                                                        <div class="comment-item__form-upload-images">
+                                                              
+                                                        </div>
+                                                        <label class="comment-item__form-upload" for="files">
+                                                            <svg class="comment-item__icon-photo"><use xlink:href="images/sprite.svg#icon-photo"></use></svg>
+                                                        </label>
+                                                        <a class="button button--blue comment-item__submit-link" type="submit" href="#">
+                                                            Отправить
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <aside class="info__aside">
+                                    <a class="logo info__logo" href="#">
+                                        <img class="logo__img" src="images/logo.png" alt="">
+                                    </a>
+                                    <div class="description-company info__description-company">
+                                        <p class="description-company__text description-company__title">
+                                            <span class="description-company__text--medium">Название компании:</span> ООО “Преображенский Мясоперерабатывающий Комбинат”
+                                        </p>
+                                        <p class="description-company__text description-company__ogrn">
+                                            <span class="description-company__text--medium">ОГРН (ОГРНИП):</span> 1166733069612
+                                        </p>
+                                        <p class="description-company__text description-company__inn">
+                                            <span class="description-company__text--medium">ИНН:</span> 6726022894
+                                        </p>
+                                        <p class="description-company__text description-company__contry"> 
+                                            <span class="description-company__text--medium">Страна:</span> Россия
+                                        </p>
+                                        <p class="description-company__text description-company__region">
+                                            <span class="description-company__text--medium">Регион:</span> Тверская область
+                                        </p>
+                                        <p class="description-company__text ">
+                                            <span class="description-company__text--medium">Описание:</span>
+                                            <span class="description-company__desc">
+                                                Преображенский МПК - современное мясоперерабатывающее предприятие в Тверской области. Введен в эксплуатацию в 2013 г. Основу ассортимента составляют порционные и мелкокусковые полуфабрикаты из охлажденной свинины. Продукция мясокомбината является частью вертикально-интегрированного холдинга КоПИТАНИЯФ. Предприятия холдинга образуют полный цикл производства от выращивания зерна и производства комбикормов до производства свежего мяса, что позволяет снизить себестоимость и гарантировать безопасность и высокое качество продукции.
+                                            </span>
+                                            
+                                        </p>
+                                        <button class="description-company__read-more">
+                                            
+                                        </button>
+                                        <p class="description-company__text description-company__region">
+                                            <span class="description-company__text--medium">Виды деятольности:</span>
+                                            <ul class="description-company__list">
+                                                <li class="description-company__list-item">
+                                                    – Оборудование, упаковка
+                                                </li>
+                                                <li class="description-company__list-item">
+                                                    – Оптовая торговля
+                                                </li>
+                                                <li class="description-company__list-item">
+                                                    – Производитель готовой продукции
+                                                </li>
+                                                <li class="description-company__list-item">
+                                                    – Производитель мясного сырья
+                                                </li>
+                                                <li class="description-company__list-item">
+                                                    – Розничная торговля
+                                                </li>
+                                            </ul>
+                                        </p>
+                                        <p class="description-company__text description-company__region">
+                                            <span class="description-company__text--medium">Виды продукции:</span>
+                                            <ul class="description-company__list">
+                                                <li class="description-company__list-item">
+                                                    – Свинина
+                                                </li>
+                                                <li class="description-company__list-item">
+                                                    – Замороженное и охлажденное мясо
+                                                </li>
+                                                <li class="description-company__list-item">
+                                                    – Мясные полуфабрикаты
+                                                </li>
+                                                <li class="description-company__list-item">
+                                                    – Колбасы, сосиски, деликатесы
+                                                </li>
+                                            </ul>
+                                        </p>
+                                        <p class="description-company__text description-company__desc">
+                                            <span class="description-company__text--medium">Товары и услуги:</span>
+                                            Мясо замороженное, мясо охлажденное, свинина, субпродукты 
+                                        </p>
+                                    </div>
+                                </aside>
+                            </div>                           
+                        </div>
+                        <aside class="advertising">
+                            <div class="advertising__inner">
+                                <a class="advertising__item" href="#">
+
+                                </a>
+                                <a class="advertising__item" href="#">
+    
+                                </a>   
+                            </div>
+                            
+                                                     
+                        </aside>
+                    </div>
+                </div>
+            </div>
+            <!--end info-->
+        </main>
+        <!--end main-->
+
+        <!--start footer-->
+        <footer class="footer" id="footer">
+            
+        </footer>
+        <!--end footer-->
+        <div class="inaccuracy-modal" id="inaccuracy-modal">
+            <form class="inaccuracy-form">
+                <div class="inaccuracy-form__container">
+                    <h4 class="inaccuracy-form__title">
+                        Укажите неточность
+                    </h4>
+                    <div class="inaccuracy-form__item">
+                        <input class="inaccuracy-form__input" type="checkbox" id="inaccuracy-1" value="1">
+                        <label class="inaccuracy-form__label" for="inaccuracy-1">
+                            Контактные данные
+                        </label>
+                    </div>
+                    <div class="inaccuracy-form__item">
+                        <input class="inaccuracy-form__input" type="checkbox" id="inaccuracy-2" value="2">
+                        <label class="inaccuracy-form__label" for="inaccuracy-2">
+                            Вид деятельности, товары
+                        </label>
+                    </div>
+                    <div class="inaccuracy-form__item">
+                        <input class="inaccuracy-form__input" type="checkbox" id="inaccuracy-3" value="3" >
+                        <label class="inaccuracy-form__label" for="inaccuracy-3">
+                            Компания не существует
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="inaccuracy-form__buttons-block">
+                    <button class="link link--blue inaccuracy-form__close" data-fancybox-close="">
+                        Отмена
+                    </button>
+                    <button class="button button--blue inaccuracy-form__submit" id="check" type="submit" disabled data-fancybox-close="">
+                        Отправить
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <!--end wrapper-->
+    <a class="button-up">
+        <svg class="button-up__icon icon-arrow-up"><use xlink:href="images/sprite.svg#icon-arrow-up"></use></svg>
+    </a>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
